@@ -1,16 +1,18 @@
 package biblioteka;
 
+import java.util.List;
+
 public class Knjiga {
-	private String autor;
+	private List<Autor> autori;
 	private String izdavac;
 	private int izdanje;
 	private long isbn;
 	private String naslov;
-	public String getAutor() {
-		return autor;
+	public List<Autor> getAutori() {
+		return autori;
 	}
-	public void setAutor(String autor) {
-		this.autor = autor;
+	public void setAutori(List<Autor> autori) {
+		this.autori = autori;
 	}
 	public String getIzdavac() {
 		return izdavac;
