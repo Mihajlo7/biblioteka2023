@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import biblioteka.interfejs.BibliotekaInterfejs;
-
+// Ova klasa predstavlja biblioteku u koju se mogu dodati knjige
+// Brisati knjige i pretrayivati
 public class Biblioteka implements BibliotekaInterfejs {
 	
 	private List<Knjiga> knjige=new ArrayList<>();
